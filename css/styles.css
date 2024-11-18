@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* body {
+    background: radial-gradient(ellipse at top, #e66465, transparent),
+                radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+    height: 100vh;            
+} */
+
+body {
+    background-color: rgba(222, 222, 26, 0.127);
+}
+
+h1 {
+    text-align: center;
+    border-radius: 5px;
+    margin: 30px 0;
+    padding: 50px 0;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(../img/contador-visitas-wordpress.jpg);
+    background-position: center;
+    color: rgb(46, 38, 79);
+}
+
+#parrafo {
+    margin: 40px 40px ;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#contadorYboton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#btnReestablecer {
+    border-radius: 8px;
+    padding: 10px 25px;
+    border: none;
+    background-color: rgb(222, 222, 26);
+    color: #a52a2a;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+#btnReestablecer:hover {
+    transform: scale(1.05);
+}
+
+section p {
+    border-left: 6px solid #a52a2a;
+  border-radius: 5px;
+  border-bottom-right-radius: 15px;
+  padding: 15px;
+  background-color: rgb(222, 222, 26);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
